@@ -70,6 +70,8 @@ nav {
     gap: 120px;
 }
 
+
+
 .section4-text {
     width: 611px;
     height: 51px;
@@ -78,6 +80,47 @@ nav {
     color: #000000;
     font-weight: 300;
     font-family: "Lato";
+}
+
+.section5 {
+    position: relative;
+
+    .schedule {
+        position: absolute;
+        top: 100px;
+        left: 300px;
+        width: 352px;
+        background-color: rgb(255, 255, 255, 0.7);
+        padding: 20px;
+
+        .rows {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-items: stretch;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 300;
+            font-family: "Lato";
+
+            .right {
+                text-align: right;
+            }
+
+            .row3 {
+                margin: 20px 0px;
+            }
+
+        }
+
+        .title {
+            font-size: 32px;
+            color: #414f6b;
+            font-weight: 700;
+            font-family: "Oswald";
+        }
+    }
+
 }
 
 .nav-items {
