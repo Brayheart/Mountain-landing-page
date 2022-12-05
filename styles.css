@@ -9,6 +9,32 @@ nav {
   align-items: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.mountain {
+  background: #404E6C;
+  display: flex;
+  padding: 0px 300px;
+}
+.mountain .title1 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+  background: #E3E6EF;
+  padding: 15px;
+}
+.mountain .title2 {
+  font-size: 20px;
+  color: #b0b4be;
+  font-weight: 700;
+  font-family: "Oswald";
+  padding: 15px;
+}
+
 .number-text-container {
   position: absolute;
   top: 30px;
