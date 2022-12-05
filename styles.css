@@ -9,6 +9,70 @@ nav {
   align-items: center;
 }
 
+.number-text-container {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+.number-text-container div {
+  position: relative;
+}
+.number-text-container div .title {
+  opacity: 0.502;
+  font-size: 136px;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+.number-text-container div .subtitle {
+  font-size: 32px;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+  position: absolute;
+  top: 75px;
+  left: 145px;
+}
+
+.number-text-container2 {
+  padding-left: 300px;
+}
+.number-text-container2 div {
+  position: relative;
+}
+.number-text-container2 div .title {
+  opacity: 0.502;
+  font-size: 136px;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+.number-text-container2 div .subtitle {
+  font-size: 32px;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+  position: absolute;
+  top: 75px;
+  left: 145px;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.section4-text {
+  width: 611px;
+  height: 51px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Lato";
+}
+
 .nav-items {
   display: flex;
   gap: 20px;
@@ -35,6 +99,18 @@ nav {
   display: flex;
 }
 
+.section3-text {
+  position: absolute;
+  width: 56%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 300;
+  top: 180px;
+  left: 380px;
+  font-family: "Lato";
+}
+
 .section3 {
   position: relative;
 }
@@ -45,7 +121,7 @@ nav {
   padding: 30px 100px;
   background: rgba(65, 79, 107, 0.85);
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 }
 
 .carousel-control.right,
