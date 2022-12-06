@@ -13,12 +13,12 @@ nav {
   align-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   nav img {
     padding: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   nav {
     padding: 20px;
     z-index: 1;
@@ -85,7 +85,7 @@ body {
   top: 45%;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .mobile-title {
     display: block;
   }
@@ -112,7 +112,7 @@ body {
 .fullview {
   display: block;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .fullview {
     display: none;
   }
@@ -121,13 +121,13 @@ body {
 .mobile {
   display: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .mobile {
     display: block;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .mtn-mobile {
     max-width: 400%;
     margin-left: -603px;
@@ -155,7 +155,7 @@ body {
   font-family: "Oswald";
   padding: 15px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .mountain {
     padding: 20px;
     justify-content: space-evenly;
@@ -186,7 +186,7 @@ body {
   top: 92px;
   left: 134px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .number-text-container {
     left: auto;
   }
@@ -214,7 +214,7 @@ body {
   top: 92px;
   left: 152px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .number-text-container2 {
     padding: 0px;
   }
@@ -225,7 +225,7 @@ body {
   align-items: center;
   gap: 120px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section4 {
     gap: 0px;
     flex-direction: column;
@@ -242,7 +242,7 @@ body {
   font-weight: 300;
   font-family: "Lato";
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section4-text {
     padding: 20px;
     padding-top: 0px;
@@ -285,7 +285,7 @@ body {
   font-weight: 700;
   font-family: "Oswald";
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section5 .schedule {
     left: 0;
     right: 0;
@@ -310,7 +310,7 @@ body {
   font-family: "Lato";
   text-decoration: underline;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .nav-items {
     display: none;
   }
@@ -332,7 +332,7 @@ body {
   font-family: "Lato";
   text-decoration: underline;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .nav-items-colored {
     display: none;
   }
@@ -347,14 +347,14 @@ body {
   align-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section2 {
     justify-content: space-around;
     padding: 20px;
     flex-direction: column;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section2 img {
     width: 50%;
     padding: 20px;
@@ -390,7 +390,7 @@ footer p {
   font-style: italic;
   font-family: "Lato";
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   footer {
     padding: 20px;
     padding-top: 0px;
@@ -419,7 +419,7 @@ footer p {
   left: 370px;
   font-family: "Lato";
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section3-text {
     width: auto;
     margin: 20px;
@@ -433,7 +433,7 @@ footer p {
 .section3 {
   position: relative;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .section3 {
     display: flex;
     align-items: center;
@@ -449,14 +449,13 @@ footer p {
   position: absolute;
   bottom: 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .container img {
     width: -webkit-fill-available;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .container {
-    position: relative;
     padding: 50px;
   }
 }
