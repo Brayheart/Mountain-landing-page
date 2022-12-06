@@ -1,5 +1,4 @@
 var acc = document.getElementsByClassName("accordion");
-console.log('here',acc)
 var i;
 
 for (i = 0; i < acc.length; i++) {

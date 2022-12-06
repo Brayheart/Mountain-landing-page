@@ -82,7 +82,7 @@ body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 40%;
+  top: 45%;
   text-align: center;
 }
 @media (max-width: 500px) {
@@ -332,6 +332,11 @@ body {
   font-family: "Lato";
   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  .nav-items-colored {
+    display: none;
+  }
+}
 
 .section2 {
   display: flex;
@@ -346,11 +351,13 @@ body {
   .section2 {
     justify-content: space-around;
     padding: 20px;
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
   .section2 img {
-    width: 35%;
+    width: 50%;
+    padding: 20px;
   }
 }
 
