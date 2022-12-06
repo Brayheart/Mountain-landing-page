@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;700&display=swap");
+html {
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -9,9 +13,76 @@ nav {
   align-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  nav {
+    padding: 20px;
+  }
+}
 
 body {
   overflow-x: hidden;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mobile-title {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .mobile-title {
+    display: block;
+  }
+}
+.mobile-title .title {
+  font-size: 40px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-family: "Bebas";
+  font-weight: 700;
+  white-space: nowrap;
+}
+.mobile-title .subtitle {
+  font-size: 44.5px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #404E6C;
+  font-family: "Bebas";
+  font-weight: 700;
+}
+
+.fullview {
+  display: block;
+}
+@media (max-width: 500px) {
+  .fullview {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+}
+@media (max-width: 500px) {
+  .mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .mtn-mobile {
+    max-width: 250%;
+    margin-left: -250px;
+  }
 }
 
 .mountain {
@@ -34,6 +105,12 @@ body {
   font-weight: 700;
   font-family: "Oswald";
   padding: 15px;
+}
+@media (max-width: 500px) {
+  .mountain {
+    padding: 20px;
+    justify-content: space-evenly;
+  }
 }
 
 .number-text-container {
@@ -60,6 +137,11 @@ body {
   top: 92px;
   left: 134px;
 }
+@media (max-width: 500px) {
+  .number-text-container {
+    left: auto;
+  }
+}
 
 .number-text-container2 {
   padding-left: 300px;
@@ -83,11 +165,23 @@ body {
   top: 92px;
   left: 152px;
 }
+@media (max-width: 500px) {
+  .number-text-container2 {
+    padding: 0px;
+  }
+}
 
 .section4 {
   display: flex;
   align-items: center;
   gap: 120px;
+}
+@media (max-width: 500px) {
+  .section4 {
+    gap: 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .section4-text {
@@ -98,6 +192,15 @@ body {
   color: #000000;
   font-weight: 300;
   font-family: "Lato";
+}
+@media (max-width: 500px) {
+  .section4-text {
+    padding: 20px;
+    padding-top: 0px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
 }
 
 .section5 {
@@ -132,6 +235,14 @@ body {
   color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
+}
+@media (max-width: 500px) {
+  .section5 .schedule {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .nav-items {
@@ -177,6 +288,17 @@ body {
   align-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .section2 {
+    justify-content: space-around;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .section2 img {
+    width: 35%;
+  }
+}
 
 footer {
   display: flex;
@@ -207,6 +329,19 @@ footer p {
   font-style: italic;
   font-family: "Lato";
 }
+@media (max-width: 500px) {
+  footer {
+    padding: 20px;
+    padding-top: 0px;
+    flex-direction: column;
+  }
+  footer img {
+    padding-top: 20px;
+  }
+  footer p {
+    padding-top: 20px;
+  }
+}
 
 .carasoul {
   display: flex;
@@ -223,9 +358,26 @@ footer p {
   left: 370px;
   font-family: "Lato";
 }
+@media (max-width: 500px) {
+  .section3-text {
+    width: auto;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    left: auto;
+  }
+}
 
 .section3 {
   position: relative;
+}
+@media (max-width: 500px) {
+  .section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .container {
@@ -235,6 +387,17 @@ footer p {
   background: rgba(65, 79, 107, 0.85);
   position: absolute;
   bottom: 0px;
+}
+@media (max-width: 500px) {
+  .container img {
+    width: -webkit-fill-available;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    position: relative;
+    padding: 50px;
+  }
 }
 
 .carousel-control.right,

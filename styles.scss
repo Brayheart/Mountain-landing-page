@@ -2,6 +2,9 @@
 $Lato: 'Lato';
 $Oswald: 'Oswald';
 
+html {
+    overflow-x: hidden;
+}
 
 nav {
     display: flex;
@@ -12,10 +15,76 @@ nav {
     padding: 20px 300px;
     align-content: center;
     align-items: center;
+
+    @media (max-width: 500px) {
+        padding: 20px;
+    }
 }
 
 body {
     overflow-x: hidden;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mobile-title {
+
+    display: none;
+    @media (max-width: 500px) {
+        display: block;
+    }
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    text-align: center;
+
+    .title {
+        font-size: 40px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        color: #4d4d4d;
+        font-family: "Bebas";
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .subtitle {
+        font-size: 44.5px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #404E6C;
+        font-family: "Bebas";
+        font-weight: 700;
+    }
+}
+
+.fullview {
+    display: block;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.mobile {
+    display: none;
+
+    @media (max-width: 500px) {
+        display: block;
+    }
+}
+
+.mtn-mobile {
+    @media (max-width: 500px) {
+        max-width: 250%;
+        margin-left: -250px;
+    }
 }
 
 .mountain {
@@ -39,6 +108,11 @@ body {
         font-weight: 700;
         font-family: $Oswald;
         padding: 15px;
+    }
+
+    @media (max-width: 500px) {
+        padding: 20px;
+        justify-content: space-evenly;
     }
 }
 
@@ -68,6 +142,10 @@ body {
             left: 134px;
         }
     }
+
+    @media (max-width: 500px) {
+        left: auto;
+    }
 }
 
 .number-text-container2 {
@@ -94,6 +172,11 @@ body {
             left: 152px;
         }
     }
+
+
+    @media (max-width: 500px) {
+        padding: 0px;
+    }
     
 }
 
@@ -101,6 +184,12 @@ body {
     display: flex;
     align-items: center;
     gap: 120px;
+
+    @media (max-width: 500px) {
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
@@ -113,6 +202,14 @@ body {
     color: #000000;
     font-weight: 300;
     font-family: $Lato;
+
+    @media (max-width: 500px) {
+        padding: 20px;
+        padding-top: 0px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
 }
 
 .section5 {
@@ -152,6 +249,14 @@ body {
             font-weight: 700;
             font-family: $Oswald;
         }
+
+
+    @media (max-width: 500px) {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
     }
 
 }
@@ -200,6 +305,18 @@ body {
     padding: 20px 300px;
     align-content: center;
     align-items: center;
+
+    @media (max-width: 500px) {
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    img {
+        @media (max-width: 500px) {
+            width: 35%;
+        }
+    }
+
 }
 
 footer {
@@ -232,6 +349,20 @@ footer {
         font-style: italic;
         font-family: $Lato;
     }
+
+    @media (max-width: 500px) {
+      padding: 20px;
+      padding-top: 0px;
+      flex-direction: column;
+
+      img {
+        padding-top: 20px;
+      }
+
+      p {
+        padding-top: 20px;
+      }
+    }
 }
 
 .carasoul {
@@ -248,10 +379,25 @@ footer {
     top: 200px;
     left: 370px;
     font-family: $Lato;
+
+    @media (max-width: 500px) {
+        width: auto;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        text-align: center;
+        left: auto;
+    }
 }
 
 .section3 {
     position: relative;
+
+    @media (max-width: 500px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .container {
@@ -261,6 +407,18 @@ footer {
     background: rgba(65, 79, 107, 0.85);
     position: absolute;
     bottom: 0px;
+
+    img {
+        @media (max-width: 500px) {
+            width: -webkit-fill-available;
+        }
+    }
+
+
+    @media (max-width: 500px) {
+        position: relative;
+        padding: 50px;
+    }
 }
 
 .carousel-control.right,
