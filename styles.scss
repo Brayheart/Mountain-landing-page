@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;700&display=swap');
+$Lato: 'Lato';
+$Oswald: 'Oswald';
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,7 +28,7 @@ body {
         text-decoration: underline;
         color: #414f6b;
         font-weight: 700;
-        font-family: "Oswald";
+        font-family: $Oswald;
         background: #E3E6EF;
         padding: 15px;
     }
@@ -32,7 +37,7 @@ body {
         font-size: 20px;
         color: #b0b4be;
         font-weight: 700;
-        font-family: "Oswald";
+        font-family: $Oswald;
         padding: 15px;
     }
 }
@@ -50,17 +55,17 @@ body {
             font-size: 136px;
             color: #414f6b;
             font-weight: 700;
-            font-family: "Oswald";
+            font-family: $Oswald;
         }
 
         .subtitle {
             font-size: 32px;
             color: #414f6b;
             font-weight: 700;
-            font-family: "Oswald";
+            font-family: $Oswald;
             position: absolute;
-            top: 75px;
-            left: 145px;
+            top: 92px;
+            left: 134px;
         }
     }
 }
@@ -76,17 +81,17 @@ body {
             font-size: 136px;
             color: #414f6b;
             font-weight: 700;
-            font-family: "Oswald";
+            font-family: $Oswald;
         }
 
         .subtitle {
             font-size: 32px;
             color: #414f6b;
             font-weight: 700;
-            font-family: "Oswald";
+            font-family: $Oswald;
             position: absolute;
-            top: 75px;
-            left: 145px;
+            top: 92px;
+            left: 152px;
         }
     }
     
@@ -107,7 +112,7 @@ body {
     line-height: 24px;
     color: #000000;
     font-weight: 300;
-    font-family: "Lato";
+    font-family: $Lato;
 }
 
 .section5 {
@@ -129,7 +134,7 @@ body {
             line-height: 24px;
             color: #000000;
             font-weight: 300;
-            font-family: "Lato";
+            font-family: $Lato;
 
             .right {
                 text-align: right;
@@ -145,7 +150,7 @@ body {
             font-size: 32px;
             color: #414f6b;
             font-weight: 700;
-            font-family: "Oswald";
+            font-family: $Oswald;
         }
     }
 
@@ -155,12 +160,36 @@ body {
     display: flex;
     gap: 20px;
     color: white;
+
+    p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fefeff;
+        font-weight: 900;
+        font-style: italic;
+        font-family: $Lato;
+        text-decoration: underline;
+    }
 }
 
 .nav-items-colored {
     display: flex;
     gap: 20px;
     color: black;
+
+    p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #414f6b;
+        font-weight: 900;
+        font-style: italic;
+        font-family: $Lato;
+        text-decoration: underline;
+    }
 }
 
 .section2 {
@@ -201,7 +230,7 @@ footer {
         color: #63769d;
         font-weight: 900;
         font-style: italic;
-        font-family: "Lato";
+        font-family: $Lato;
     }
 }
 
@@ -216,9 +245,9 @@ footer {
     line-height: 24px;
     color: #000000;
     font-weight: 300;
-    top: 180px;
-    left: 380px;
-    font-family: "Lato";
+    top: 200px;
+    left: 370px;
+    font-family: $Lato;
 }
 
 .section3 {

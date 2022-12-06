@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;700&display=swap");
 nav {
   display: flex;
   justify-content: space-between;
@@ -56,8 +57,8 @@ body {
   font-weight: 700;
   font-family: "Oswald";
   position: absolute;
-  top: 75px;
-  left: 145px;
+  top: 92px;
+  left: 134px;
 }
 
 .number-text-container2 {
@@ -79,8 +80,8 @@ body {
   font-weight: 700;
   font-family: "Oswald";
   position: absolute;
-  top: 75px;
-  left: 145px;
+  top: 92px;
+  left: 152px;
 }
 
 .section4 {
@@ -138,11 +139,33 @@ body {
   gap: 20px;
   color: white;
 }
+.nav-items p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fefeff;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Lato";
+  text-decoration: underline;
+}
 
 .nav-items-colored {
   display: flex;
   gap: 20px;
   color: black;
+}
+.nav-items-colored p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #414f6b;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Lato";
+  text-decoration: underline;
 }
 
 .section2 {
@@ -196,8 +219,8 @@ footer p {
   line-height: 24px;
   color: #000000;
   font-weight: 300;
-  top: 180px;
-  left: 380px;
+  top: 200px;
+  left: 370px;
   font-family: "Lato";
 }
 
