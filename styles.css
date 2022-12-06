@@ -293,6 +293,11 @@ body {
     margin-right: auto;
   }
 }
+@media (max-width: 1000px) {
+  .section5 img {
+    max-width: 350%;
+  }
+}
 
 .nav-items {
   display: flex;

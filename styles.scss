@@ -311,6 +311,12 @@ body {
         }
     }
 
+    img {
+        @media (max-width: 1000px) {
+            max-width: 350%;   
+        }
+    }
+
 }
 
 .nav-items {
