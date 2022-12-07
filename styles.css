@@ -77,7 +77,6 @@ body {
 
 .mobile-title {
   display: none;
-  position: absolute;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -470,13 +469,16 @@ footer p {
   }
 }
 
-.carousel-control.right,
-.carousel-control.left {
-  display: none;
-}
-
 .carousel-indicators {
   bottom: -48px !important;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 82%;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .carousel-inner .active.left {
