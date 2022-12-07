@@ -13,8 +13,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-console.log('here')
-
 $('.item').each(function(){
     var next = $(this).next();
     if (!next.length) {
