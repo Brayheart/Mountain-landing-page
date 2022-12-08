@@ -137,7 +137,7 @@ body {
         margin-left: -603px;
     }
 }
-
+// needed to use important flag to override bootstrap classes
 .active>a {
     white-space: nowrap;
     background-color: #E3E6EF !important;
