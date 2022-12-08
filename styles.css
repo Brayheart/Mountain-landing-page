@@ -133,28 +133,26 @@ body {
   }
 }
 
-.active > a {
-  white-space: nowrap;
-  background-color: #E3E6EF !important;
-  color: #414F6B !important;
-  text-decoration: underline !important;
-}
-
 .mountain {
   background: #404E6C;
   display: flex;
   padding: 0px 250px;
 }
-.mountain a {
-  color: #B0B4BE;
-  border-radius: 0px !important;
+.mountain .title1 {
   font-size: 20px;
+  text-decoration: underline;
+  color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
-  padding: 15px !important;
-  border: none !important;
-  height: 100%;
-  margin: 0px !important;
+  background: #E3E6EF;
+  padding: 15px;
+}
+.mountain .title2 {
+  font-size: 20px;
+  color: #b0b4be;
+  font-weight: 700;
+  font-family: "Oswald";
+  padding: 15px;
 }
 @media (max-width: 1000px) {
   .mountain {
@@ -258,10 +256,9 @@ body {
 }
 .section5 .schedule {
   position: absolute;
-  top: 20%;
+  top: 100px;
   left: 250px;
   width: 352px;
-  display: block !important;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
 }
@@ -474,14 +471,6 @@ footer p {
 
 .carousel-indicators {
   bottom: -48px !important;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 82%;
-  overflow: hidden;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .carousel-inner .active.left {
