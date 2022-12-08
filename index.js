@@ -1,3 +1,6 @@
+// Carsoul logic was found here: https://codepen.io/Brayheart/pen/GRGPKRX
+// Accordion logic was found here: https://www.w3schools.com/howto/howto_js_accordion.asp
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
