@@ -91,21 +91,21 @@ body {
   }
 }
 .mobile-title .title {
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 0px;
   text-transform: uppercase;
   color: #4d4d4d;
-  font-family: "Bebas";
+  font-family: "Oswald";
   font-weight: 700;
   white-space: nowrap;
 }
 .mobile-title .subtitle {
-  font-size: 44.5px;
+  font-size: 56.5px;
   letter-spacing: 0px;
   line-height: 23px;
   text-transform: uppercase;
   color: #404E6C;
-  font-family: "Bebas";
+  font-family: "Oswald";
   font-weight: 700;
 }
 
